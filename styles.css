@@ -1,0 +1,77 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Add this to stack elements vertically */
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+/* Header Styles */
+h1 {
+    color: #4CAF50; /* Green color */
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Paragraph Styles */
+p {
+    font-size: 1.2em;
+    text-align: center;
+    color: #666;
+}
+
+/* Button Styles */
+input {
+    font-size: 1.2em;
+    color: #666;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Center the input container */
+#input_container {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    height: 100px; /* Optional: Adjust the height of the parent div */
+}
+
+img {
+    width: 375px;
+    height: 211px;
+    margin-top: 20px; /* Add space between input and image display */
+}
+
+/* Container Styles */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#ob_detect {
+    padding: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #4CAF50;
+    color: #f4f4f4;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px; /* Add space between input and image display */
+}
